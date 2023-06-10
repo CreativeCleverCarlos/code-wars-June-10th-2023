@@ -19,3 +19,12 @@ function mouthSize(animal) {
   }
 
   console.log(mouthSize('alligato'))
+
+  /**
+        Here's a better version though
+
+function mouthSize(animal) {
+  return animal.toLowerCase() == 'alligator' ? 'small' : 'wide';
+}
+
+*/
